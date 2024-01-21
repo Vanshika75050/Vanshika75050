@@ -1,0 +1,55 @@
+body {
+    background-image: url(theme.jpg) ;
+    font-family: "Lato",Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    max-width: 50rem;
+    margin: auto;
+    color:whitesmoke;
+    font-weight: bolder;
+    }
+
+
+header {
+  
+    background-size: cover;
+    background-position: right;
+    height: 200px;
+}
+
+
+main {
+    border-bottom: 0.0rem solid;
+}
+section {
+    flex: 9;
+    min-width: 350px;
+}
+#signuppage {
+    margin:auto ;
+    width: 50%;
+  
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.639);
+    border-radius: 5px;
+}
+
+.textInput {
+    color: black;
+    font-size: 50%;
+}
+input {
+    margin: 10px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.3); 
+    color: black;
+}
+input::placeholder {
+    color: black;
+}
+.temp {
+    width: 42%;
+}
+.width {
+   width: 93.6%;
+}
